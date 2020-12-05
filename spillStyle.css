@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.jan.2016, 19:32:47
+    Author     : Morten
+*/
+
+
+body {
+    background-color: #65c4ce;
+}
+
+
+#board {
+    position: relative;
+    background: url("BoardPic.png") no-repeat;
+    width: 600px;
+    height: 600px;
+    left: 140px;
+    z-index: 0;
+     
+}
+#coverBoard {
+    position: absolute;
+    background: url("BoardPic.png") no-repeat;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+}
+
+#fadeLightElement {
+    position: absolute;
+    background: url("fadeLight.png") no-repeat;
+    top: 53px;
+    left: 53px;
+    width: 432px;
+    height: 430px;
+    z-index: 2;
+}
+
+#startBtn {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    width: 130px;
+    height: 330px;   
+    z-index: 3;
+}
+
+#sideBar {
+    position: absolute;
+    top: 0px;
+    left:-135px;
+    font-family: "Comic Sans MS";
+    font-size: 50pt;
+    color: azure;
+    width: 115px;
+    height: 539px;
+    background-color: #046e58;
+    border-color: azure;
+    border-width: 0px;
+    border-style: solid;
+    text-align: center;
+}
+
+#sideBar #pointCount {
+    font-family: "Comic Sans MS";
+    font-size: 30pt;
+    color: azure;
+    text-align: center;
+    
+    
+}
+
+#sideBar #pointText {
+    font-family: "Comic Sans MS";
+    font-size:25pt;
+    color: azure;
+    text-align: center;
+}
+
+#gameTitleDiv {
+    position: relative;
+    left: -50px;
+}
+
+#stars{
+    z-index: 2; 
+}
+
+table {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    border-spacing: 0px;
+}
+
+td {
+    width: 104px;
+    height: 105px;
+}
+
+.apple {
+    background: url("apple.png") no-repeat center center;
+    background-size: 100px;
+}
+.dog {
+    background: url("dog.png") no-repeat center center;
+    background-size: 100px;
+    
+}
+.house {
+    background: url("house.png") no-repeat center center;
+    background-size: 100px;
+    
+}
+.monster {
+    background: url("monster.png") no-repeat center center;
+    background-size: 100px;
+}
+.police {
+    background: url("police.png") no-repeat center center;
+    background-size: 100px;
+    
+}
+.spaceship {
+    background: url("spaceship.png") no-repeat center center;
+    background-size: 100px;
+}
+.tractor {
+    background: url("tractor.png") no-repeat center center;
+    background-size: 100px;
+}
+.troll {
+    background: url("troll.png") no-repeat center center;
+    background-size: 100px;
+}
+
+.cardBack {
+    background: url("cardBack.png") no-repeat center center;
+    background-size: 100px;
+}
+
+#backgroundMusic{
+    volume: 0.2;
+}
+
+#audioToHide {
+    display: none;
+}
+
+#creditsLink a {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 25px;
+    font-size: 15pt;
+}
+
+
+
+
+

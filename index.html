@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Guess With Wilhelm</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="spillStyle.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <script src="jquery-1.12.0.min.js"></script>
+        <script src="jquery-ui.js"></script>
+        <script src="jquery.fireworks.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        -->
+        <script src="spill.script.js"></script>
+    </head>
+
+    <body>
+        <div id="gameTitleDiv"><img src="gameTitle.png" alt="gameTitle" width="800"></div>
+        <div id="board">
+            <div id="startBtn" class="animated pulse">
+                <img src="startStart.png" alt="star" height="300" width="300">
+            </div>
+            <div id="coverBoard"></div>
+            <table id="cardTable">
+            <tr>
+                <td id="0"></td><td id="1"></td><td id="2"></td><td id="3"></td>
+            </tr>
+            <tr>
+                <td id="4"></td><td id="5"></td><td id="6"></td><td id="7"></td>
+            </tr>
+            <tr>
+                <td id="8"></td><td id="9"></td><td id="10"></td><td id="11"></td>
+            </tr>
+            <tr>
+                <td id="12"></td><td id="13"></td><td id="14"></td><td id="15"></td>
+            </tr>
+            </table>
+            <div id="stars">
+            </div>
+            <div id="fadeLightElement">
+            </div>
+            <div id="sideBar">
+                <p id="pointText">Points</p>
+                <p id="pointCount">0</p>
+            </div>
+
+        </div>
+        <div id="audioToHide">
+            <audio controls id="backgroundMusic">
+                <source src="audio/264295__foolboymedia__sky-loop.wav" type="audio/wav">
+            </audio>
+            <audio controls id="openingSound">
+                <source src="audio/211624_qubodup_magic-wand-glitter.wav" type="audio/wav">
+            </audio>
+            <audio controls id="flipCard">
+                <source src="audio/flopp.wav" type="audio/wav">
+            </audio>
+            <audio controls id="neiIkke">
+                <source src="audio/neiIkke3.wav" type="audio/wav">
+            </audio>
+            <audio controls id="riktig">
+                <source src="audio/riktig.wav" type="audio/wav">
+            </audio>
+            <audio controls id="feil">
+                <source src="audio/feil.wav" type="audio/wav">
+            </audio>
+            <audio controls id="jippi">
+                <source src="audio/jippi.wav" type="audio/wav">
+            </audio>
+            <audio controls id="bang">
+                <source src="audio/bang.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang0">
+                <source src="audio/realBang0.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang1">
+                <source src="audio/realBang1.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang2">
+                <source src="audio/realBang2.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang3">
+                <source src="audio/realBang3.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang4">
+                <source src="audio/realBang4.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang5">
+                <source src="audio/realBang5.wav" type="audio/wav">
+            </audio>
+            <audio controls id="realBang6">
+                <source src="audio/realBang6.wav" type="audio/wav">
+            </audio>
+        </div>
+    </body>
+</html>
